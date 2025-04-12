@@ -1,0 +1,13 @@
+import java.lang.System;
+ import java.util.Scanner;
+ class main{
+     public static void main (String args[]){
+         Scanner jo=new Scanner(System.in);
+         int a=jo.nextInt();
+         int b=jo.nextInt(); 
+         int c=jo.nextInt();
+         int d=jo.nextInt();
+         int e=a+b+c+d;
+         System.out.println("addition of 3 numbers="+e);
+     }
+ }
