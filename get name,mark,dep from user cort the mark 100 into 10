@@ -1,0 +1,14 @@
+import java.lang.System;
+ import java.util.Scanner;
+ class main{
+     public static void main (String args[]){
+         Scanner jo=new Scanner(System.in);
+         String a=jo.nextLine();
+         double b=jo.nextInt(); 
+         jo.nextLine();
+         String c=jo.nextLine();
+         System.out.println("name="+a);
+         System.out.println("age="+b/10+"/10");
+         System.out.println("address="+c);
+     }
+ }
