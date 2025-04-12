@@ -1,0 +1,15 @@
+import java.lang.System;
+import java.util.Scanner;
+class main{
+    public static void main (String args[]){
+        Scanner king=new Scanner(System.in);
+        String a = king.nextLine();
+        int b = king.nextInt();
+        king.nextLine();
+        String c = king.nextLine();
+        System.out.println("name="+a);
+        System.out.println("age="+b);
+        System.out.println("address="+c);
+
+    }
+}
