@@ -1,0 +1,18 @@
+import java.util.Scanner;
+import java.lang.System;
+class her{
+    public static void main (String[]args){
+      System.out.println("Enter your mark");
+        Scanner abc =new Scanner(System.in);
+        int a=abc.nextInt();
+        if(a>0&&a<59){
+        System.out.println("vidio game");
+    }
+    else if(a>60&&a<=89){
+                System.out.println("iphone");
+    }
+    else if(a>90&&a<=100){
+                System.out.println("macbook pro");
+    }
+    }  
+}
