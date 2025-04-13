@@ -1,0 +1,16 @@
+import java.util.Scanner;
+import java.lang.System;
+class queen{
+    public static void main(String[]args)
+    {
+    Scanner achu=new Scanner(System.in);
+    System.out.println("Enter the monthly income");
+    int income=achu.nextInt();
+    if(income<=7000){
+        System.out.println("scholorship is available");
+    }
+    else{
+                System.out.println("not available");
+
+    }
+    }}
