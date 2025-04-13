@@ -1,0 +1,16 @@
+import java.util.Scanner;
+import java.lang.System;
+class queen{
+    public static void main(String[]args)
+    {
+    Scanner achu=new Scanner(System.in);
+    System.out.println("Enter the mark");
+    int mark=achu.nextInt();
+    if(mark>=35){
+        System.out.println("pass");
+    }
+    else{
+                System.out.println("fail");
+
+    }
+    }}
