@@ -1,0 +1,16 @@
+class her{
+    public static void main (String[]args){
+      boolean kfc=true;
+      boolean buff=true;
+      boolean pepsi=true;
+      if(kfc){
+        System.out.println("enter into kfc");
+       if(buff){
+            System.out.println("eating chicken");
+        if(pepsi){
+          System.out.println("Drinking pesi");
+        }
+        }   
+        }
+    }  
+}
