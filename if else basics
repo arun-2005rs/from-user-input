@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+       boolean icecream=false;
+        if(icecream){
+        System.out.println("print");
+    }
+    else{
+        System.out.println("noo");
+    }
+}
+}
