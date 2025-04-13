@@ -1,0 +1,62 @@
+1./*what is the score in the game?
+--if the score is less than 50 print"you need to improve"
+--if the score is between 50 and 70 print"good job"
+--if the score is greater than 70 print"excellent performance"*/
+import java.util.Scanner;
+import java.lang.System;
+class hello{
+    public static void main(String[]args){
+        System.out.println("Enter the score");
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        if(a<50){
+                    System.out.println("you need to improve");
+        }
+        else if(a>50 && a<=70){
+            System.out.println("Good job");
+        }
+        else if(a>70){
+            System.out.println("Excellent performance");
+        }
+        
+    }
+    
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2./*get input for 5 subjects  marks .addd all of it and find average.
+if
+average mark is less than 35.print"Additional class is required"
+else 
+print"you are good to go"*/
+import java.util.Scanner;
+import java.lang.System;
+class debug{
+    public static void main(String[]args){
+        System.out.println("enter 5 subject marks");
+        Scanner scan=new Scanner(System.in);
+        System.out.println("enter 1st subject marks");
+        int a = scan.nextInt();
+        System.out.println("enter 2nd subject marks");
+        int b = scan.nextInt();
+        System.out.println("enter 3rd subject marks");
+        int c = scan.nextInt();
+        System.out.println("enter 4th subject marks");
+        int d = scan.nextInt();
+        System.out.println("enter 5th subject marks");
+        int e = scan.nextInt();
+        int f=a+b+c+d+e;
+        int g=f/5;
+        if(g<35){
+        System.out.println("Additional class is required");
+        }
+        else{
+        System.out.println("you are good too gooo");
+
+        }
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.
+        
+    }
+}
+
+
