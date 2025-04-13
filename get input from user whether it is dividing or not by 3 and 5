@@ -1,0 +1,16 @@
+import java.util.Scanner;
+import java.lang.System;
+class queen{
+    public static void main(String[]args)
+    {
+    Scanner ac=new Scanner(System.in);
+    System.out.println("Enter the number");
+    int number=ac.nextInt();
+    if(number%3==0&&number%5==0){
+        System.out.println("the number divisible by both 3 and 5");
+    }
+    else{
+                System.out.println("not divisible by 3 and 5");
+
+    }
+    }}
