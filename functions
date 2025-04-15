@@ -1,0 +1,36 @@
+public class mobile{
+    static void iphone(){
+        System.out.println("this is iphone");
+        samsung();
+        oppo();
+        }
+        
+   static void samsung(){
+        System.out.println("this is samsung");
+        }
+    static void oppo(){
+        System.out.println("this is oppo");
+        }
+
+    public static void main(String[]args){
+        iphone();
+    }
+}
+output:
+this is iphone
+this is samsung
+this is oppo
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public class addition{
+    int a=10;
+    int b=20 ;   
+    void sum(){
+        System.out.println(a+b);
+    }
+    public static void main(String[]args)
+    {
+        addition hen=new addition();
+        hen.sum();
+    }}
+    output:
+    30
