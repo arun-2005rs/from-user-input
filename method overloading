@@ -1,0 +1,14 @@
+public class joe{
+    void disk()
+    {
+        System.out.println("joke pannlama");
+    }
+void disk(int a)
+{
+            System.out.println("ala viduraaa dai");
+}
+public static void main(String[]args)
+{
+    joe gh=new joe();
+    gh.disk(90);
+}}
