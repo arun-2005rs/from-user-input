@@ -1,0 +1,12 @@
+public class arun{
+    int sum(int a,int b){
+        int c=a+b;
+        return c;
+    }
+    public static void main(String[]args)
+    {
+        arun obj1=new arun();
+        int d=obj1.sum(10,70);
+        System.out.println(d);
+    }
+}
