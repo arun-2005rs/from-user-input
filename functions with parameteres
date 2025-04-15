@@ -1,0 +1,54 @@
+public class fox{
+    void sum(int money)
+    {
+        System.out.println(money);
+        System.out.println("chocolate purchased");
+    }
+    void getpowder(int money){
+        System.out.println(money);
+        System.out.println("powder purchased");
+    }
+    public static void main(String[]args){
+        fox obj1=new fox();
+        obj1.getchocolate(20);
+        obj1.getpowder(78);
+    }
+    
+}
+Output:
+20
+chocolate purchased
+78
+powder purchased
+
+=== Code Execution Successful ===
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+public class fox{
+    void sum1(int num1,int num2)
+    {
+        System.out.println(num1+num2);
+        System.out.println("printed");
+         System.out.println(num1-num2);
+        System.out.println("printed");
+         System.out.println(num1*num2);
+        System.out.println("printed");
+         System.out.println(num1/num2);
+        System.out.println("printed");
+    }
+    public static void main(String[]args){
+        fox obj1=new fox();
+        obj1.sum1(2,10);
+    }
+    
+}
+Output:
+12
+printed
+-8
+printed
+20
+printed
+0
+printed
+
+=== Code Execution Successful ===
