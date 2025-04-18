@@ -1,0 +1,14 @@
+package source;
+class dog{
+    int a;
+    String b;
+    dog(int n,String y)
+    {
+        a= n;
+        b= y;
+    }
+    public static void main(String[]args){
+        dog king=new dog(89,"ko");
+        dog king1=new dog(5,"ko");
+        System.out.println(king1.a);
+        }}
