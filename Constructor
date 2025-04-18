@@ -1,0 +1,14 @@
+class My{
+    int marks=10;
+    String name="";
+    My()
+    {
+                System.out.println("love you papa");
+    }
+    public static void main(String[]args){
+    My pattu=new My(); 
+        My pattu3=new My(); 
+        System.out.println(pattu.marks);
+
+    }
+}
