@@ -1,0 +1,16 @@
+class My{
+    int marks;
+    String name;
+    My(int s)
+    {
+                System.out.println(s);
+    }
+     My()
+    {
+                System.out.println("i am a empty constructor");
+    }
+    public static void main(String[]args){
+    My pattu=new My(); 
+
+    }
+}
