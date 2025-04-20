@@ -1,0 +1,15 @@
+class animal{
+animal(String name){
+System.out.println(name);
+}}
+class dog extends animal{
+dog(){
+super("arun");
+System.out.println("it's dog");
+}}
+public class Main {
+  public static void main(String[] args) {
+    dog obj1=new dog();
+    System.out.println("its executed");
+  }
+}
