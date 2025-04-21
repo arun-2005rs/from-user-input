@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class hello{
+    public static void main(String[]args){
+        System.out.print("enter the feets");
+        Scanner scan=new Scanner(System.in);
+        Double feet=scan.nextDouble();
+        Double meter=feet*0.3048;
+        System.out.println(meter);
+        
+    }
+}
